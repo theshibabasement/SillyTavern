@@ -6,7 +6,7 @@ services:
     hostname: sillytavern
     image: ghcr.io/sillytavern/sillytavern:latest
     ports:
-      - "8049:8049"
+      - "8050:8050"
     volumes:
       - "./extensions:/home/node/app/public/scripts/extensions/third-party"
       - "./config:/home/node/app/config"
